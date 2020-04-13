@@ -1,0 +1,4790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CVInputData</class>
+ <widget class="QMainWindow" name="CVInputData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>2</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>Ubuntu</family>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>CV - Data Input Assistant</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.jpg</normaloff>icon.jpg</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>100.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#EEE9E9;</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1600</width>
+        <height>1200</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Ubuntu</family>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::ClickFocus</enum>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#EEE9E9;</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustToContents</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>716</width>
+         <height>3253</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="97" column="0">
+         <widget class="QLabel" name="label_93">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Magneto Heating Rate</string>
+          </property>
+         </widget>
+        </item>
+        <item row="99" column="3">
+         <widget class="QPushButton" name="pushButton_62">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="98" column="3">
+         <widget class="QPushButton" name="pushButton_61">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="VerboseLabel">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Verbose</string>
+          </property>
+         </widget>
+        </item>
+        <item row="31" column="1">
+         <widget class="QLineEdit" name="lineEdit_28">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLineEdit" name="lineEdit_7">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="2" colspan="2">
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="29" column="3">
+         <widget class="QPushButton" name="pushButton_25">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="30" column="0">
+         <widget class="QLabel" name="label_27">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Lowerlevel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="30" column="1">
+         <widget class="QLineEdit" name="lineEdit_27">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="85" column="3">
+         <widget class="QPushButton" name="pushButton_51">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="86" column="0">
+         <widget class="QLabel" name="label_83">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Use Saved Surfaces</string>
+          </property>
+         </widget>
+        </item>
+        <item row="86" column="1">
+         <widget class="QLineEdit" name="lineEdit_74">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="86" column="3">
+         <widget class="QPushButton" name="pushButton_52">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="87" column="0">
+         <widget class="QLabel" name="label_84">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Save Surfaces</string>
+          </property>
+         </widget>
+        </item>
+        <item row="87" column="1">
+         <widget class="QLineEdit" name="lineEdit_75">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" colspan="4">
+         <widget class="QLineEdit" name="ExitFileLine">
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>500</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="88" column="0">
+         <widget class="QLabel" name="label_85">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Use Saved Source</string>
+          </property>
+         </widget>
+        </item>
+        <item row="64" column="3">
+         <widget class="QPushButton" name="pushButton_42">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="65" column="0">
+         <widget class="QLabel" name="label_62">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Rybicki and Hummer Stuff&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="47" column="3">
+         <widget class="QPushButton" name="pushButton_34">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="48" column="0">
+         <widget class="QLabel" name="label_45">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Used in diskwind&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="49" column="0">
+         <widget class="QLabel" name="label_46">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind Inner X0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="49" column="1">
+         <widget class="QLineEdit" name="lineEdit_42">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>5.000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="50" column="0">
+         <widget class="QLabel" name="label_47">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind Outer X0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="31" column="3">
+         <widget class="QPushButton" name="pushButton_27">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="32" column="0">
+         <widget class="QLabel" name="label_29">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Needed not using atom file &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1" colspan="2">
+         <layout class="QFormLayout" name="formLayout_5">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit_2">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="AuxVerboseButton">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_7">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Special J</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="label_9">
+          <property name="maximumSize">
+           <size>
+            <width>110</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Atmosphere Type</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1" colspan="2">
+         <layout class="QFormLayout" name="formLayout_6">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="VerboseButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="14" column="0">
+         <widget class="QLabel" name="label_16">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Prof Filename</string>
+          </property>
+         </widget>
+        </item>
+        <item row="19" column="3" alignment="Qt::AlignLeft">
+         <widget class="QPushButton" name="pushButton_16">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="68" column="0">
+         <widget class="QLabel" name="label_65">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Max Iteration</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0">
+         <widget class="QLabel" name="label_13">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Grid Filename</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="0">
+         <widget class="QLabel" name="label_14">
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Surfaces Filename</string>
+          </property>
+         </widget>
+        </item>
+        <item row="67" column="0">
+         <widget class="QLabel" name="label_64">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Source function dimensions&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="68" column="1">
+         <widget class="QLineEdit" name="lineEdit_58">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="34" column="0">
+         <widget class="QLabel" name="label_31">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Oscillator</string>
+          </property>
+         </widget>
+        </item>
+        <item row="68" column="3">
+         <widget class="QPushButton" name="pushButton_43">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="33" column="3">
+         <widget class="QPushButton" name="pushButton_28">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="35" column="0">
+         <widget class="QLabel" name="label_32">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>C Upperlevel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="34" column="1">
+         <widget class="QLineEdit" name="lineEdit_30">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.649</string>
+          </property>
+         </widget>
+        </item>
+        <item row="66" column="0">
+         <widget class="QLabel" name="label_63">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>RH Tau0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLineEdit" name="lineEdit_6">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>2.50</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1">
+         <widget class="QLineEdit" name="lineEdit_9">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="26" column="0">
+         <widget class="QLabel" name="label_23">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>200</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Use Atom File</string>
+          </property>
+         </widget>
+        </item>
+        <item row="66" column="1">
+         <widget class="QLineEdit" name="lineEdit_57">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="25" column="0">
+         <widget class="QLabel" name="label_22">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Atomic Parameters&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0">
+         <widget class="QLabel" name="label_11">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Use Grid File</string>
+          </property>
+         </widget>
+        </item>
+        <item row="19" column="1" colspan="2">
+         <widget class="QLineEdit" name="lineEdit_17">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>3.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="29" column="0">
+         <widget class="QLabel" name="label_26">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Atom Filename</string>
+          </property>
+         </widget>
+        </item>
+        <item row="18" column="1" colspan="2">
+         <widget class="QLineEdit" name="lineEdit_16">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>2.40</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_8">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Velocity Law</string>
+          </property>
+         </widget>
+        </item>
+        <item row="29" column="1">
+         <widget class="QLineEdit" name="lineEdit_26">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>hydrogen.dat</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="AuxVerboseLabel">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>AuxVerbose</string>
+          </property>
+         </widget>
+        </item>
+        <item row="57" column="0">
+         <widget class="QLabel" name="label_54">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Density Factor</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="1" colspan="3">
+         <widget class="QLineEdit" name="lineEdit_14">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>profveltable</string>
+          </property>
+         </widget>
+        </item>
+        <item row="28" column="3">
+         <widget class="QPushButton" name="pushButton_24">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="56" column="0">
+         <widget class="QLabel" name="label_53">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Magnetosphere stuff&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="57" column="1">
+         <widget class="QLineEdit" name="lineEdit_49">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="57" column="3">
+         <widget class="QPushButton" name="pushButton_35">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="72" column="0">
+         <widget class="QLabel" name="label_69">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NSource Theta</string>
+          </property>
+         </widget>
+        </item>
+        <item row="58" column="0">
+         <widget class="QLabel" name="label_55">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Mass Flow</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="1" colspan="3">
+         <widget class="QLineEdit" name="lineEdit_12">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>surfaces.ABAur</string>
+          </property>
+         </widget>
+        </item>
+        <item row="52" column="0">
+         <widget class="QLabel" name="label_49">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind A</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="0">
+         <widget class="QLabel" name="label_15">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Velocity Filename</string>
+          </property>
+         </widget>
+        </item>
+        <item row="62" column="0">
+         <widget class="QLabel" name="label_59">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Pol Vel Inner</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="2" colspan="2">
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="63" column="0">
+         <widget class="QLabel" name="label_60">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Omegask</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1" colspan="2">
+         <layout class="QFormLayout" name="formLayout_3">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit_4">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>-1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="69" column="0">
+         <widget class="QLabel" name="label_66">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NSource X</string>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="3" alignment="Qt::AlignLeft">
+         <widget class="QPushButton" name="pushButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="70" column="0">
+         <widget class="QLabel" name="label_67">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NSource Z</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="6">
+         <widget class="QLabel" name="title01">
+          <property name="minimumSize">
+           <size>
+            <width>15</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Hi! I am the CV Data Input Assistant, with me you can set the star data on the choose file for CV Application!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="2" colspan="2" alignment="Qt::AlignLeft">
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1" colspan="2">
+         <layout class="QFormLayout" name="formLayout_4">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit_3">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>-1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="71" column="0">
+         <widget class="QLabel" name="label_68">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NSource Phi</string>
+          </property>
+         </widget>
+        </item>
+        <item row="62" column="3">
+         <widget class="QPushButton" name="pushButton_40">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="62" column="1">
+         <widget class="QLineEdit" name="lineEdit_54">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>3.0e-3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0">
+         <widget class="QLabel" name="label_12">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Use Temperatures Only</string>
+          </property>
+         </widget>
+        </item>
+        <item row="63" column="3">
+         <widget class="QPushButton" name="pushButton_41">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="18" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Stellar Mass in Msun</string>
+          </property>
+         </widget>
+        </item>
+        <item row="63" column="1">
+         <widget class="QLineEdit" name="lineEdit_55">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.26</string>
+          </property>
+         </widget>
+        </item>
+        <item row="59" column="0">
+         <widget class="QLabel" name="label_56">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Inner R0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1" colspan="3">
+         <widget class="QLineEdit" name="lineEdit_11">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>500</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>grid.dat</string>
+          </property>
+         </widget>
+        </item>
+        <item row="60" column="0">
+         <widget class="QLabel" name="label_57">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Outer R0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="69" column="1">
+         <widget class="QLineEdit" name="lineEdit_59">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>40</string>
+          </property>
+         </widget>
+        </item>
+        <item row="70" column="1">
+         <widget class="QLineEdit" name="lineEdit_60">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>40</string>
+          </property>
+         </widget>
+        </item>
+        <item row="18" column="3" alignment="Qt::AlignLeft">
+         <widget class="QPushButton" name="pushButton_12">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="21" column="0">
+         <widget class="QLabel" name="label_18">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Temp Ring</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="1">
+         <widget class="QLineEdit" name="lineEdit_10">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="58" column="3">
+         <widget class="QPushButton" name="pushButton_36">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="23" column="0">
+         <widget class="QLabel" name="label_20">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Temp Gas</string>
+          </property>
+         </widget>
+        </item>
+        <item row="58" column="1">
+         <widget class="QLineEdit" name="lineEdit_50">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1.64e19</string>
+          </property>
+         </widget>
+        </item>
+        <item row="61" column="0">
+         <widget class="QLabel" name="label_58">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Beq</string>
+          </property>
+         </widget>
+        </item>
+        <item row="59" column="3">
+         <widget class="QPushButton" name="pushButton_37">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="0">
+         <widget class="QLabel" name="label_17">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Atmosphere Filename</string>
+          </property>
+         </widget>
+        </item>
+        <item row="59" column="1">
+         <widget class="QLineEdit" name="lineEdit_51">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1.40</string>
+          </property>
+         </widget>
+        </item>
+        <item row="20" column="3" alignment="Qt::AlignLeft">
+         <widget class="QPushButton" name="pushButton_17">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="31" column="0">
+         <widget class="QLabel" name="label_28">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Upperlevel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="22" column="3">
+         <widget class="QPushButton" name="pushButton_19">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="21" column="1">
+         <widget class="QLineEdit" name="lineEdit_19">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>9.6e3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="28" column="0">
+         <widget class="QLabel" name="label_25">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Element</string>
+          </property>
+         </widget>
+        </item>
+        <item row="22" column="1">
+         <widget class="QLineEdit" name="lineEdit_20">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>9.6e3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="60" column="3">
+         <widget class="QPushButton" name="pushButton_38">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Stellar Rad in Rsun</string>
+          </property>
+         </widget>
+        </item>
+        <item row="60" column="1">
+         <widget class="QLineEdit" name="lineEdit_52">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>2.00</string>
+          </property>
+         </widget>
+        </item>
+        <item row="24" column="0">
+         <widget class="QLabel" name="label_21">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Fixed Epsilon</string>
+          </property>
+         </widget>
+        </item>
+        <item row="61" column="3">
+         <widget class="QPushButton" name="pushButton_39">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="61" column="1">
+         <widget class="QLineEdit" name="lineEdit_53">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>2.5e3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="30" column="3">
+         <widget class="QPushButton" name="pushButton_26">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="label_10">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Job Type</string>
+          </property>
+         </widget>
+        </item>
+        <item row="28" column="1">
+         <widget class="QLineEdit" name="lineEdit_25">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="96" column="0">
+         <widget class="QLabel" name="label_92">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Temp Type</string>
+          </property>
+         </widget>
+        </item>
+        <item row="73" column="0">
+         <widget class="QLabel" name="label_70">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NSource Step</string>
+          </property>
+         </widget>
+        </item>
+        <item row="24" column="3">
+         <widget class="QPushButton" name="pushButton_21">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5">
+         <widget class="QLabel" name="EditFileEx">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>ex: /home/users/me/newconfig.AATau</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="24" column="1">
+         <widget class="QLineEdit" name="lineEdit_22">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>-1.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="51" column="0">
+         <widget class="QLabel" name="label_48">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind Z Height</string>
+          </property>
+         </widget>
+        </item>
+        <item row="71" column="1">
+         <widget class="QLineEdit" name="lineEdit_61">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>40</string>
+          </property>
+         </widget>
+        </item>
+        <item row="72" column="1">
+         <widget class="QLineEdit" name="lineEdit_62">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>40</string>
+          </property>
+         </widget>
+        </item>
+        <item row="73" column="1">
+         <widget class="QLineEdit" name="lineEdit_63">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>500</string>
+          </property>
+         </widget>
+        </item>
+        <item row="23" column="3">
+         <widget class="QPushButton" name="pushButton_20">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Special I</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QLineEdit" name="lineEdit_8">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </widget>
+        </item>
+        <item row="23" column="1">
+         <widget class="QLineEdit" name="lineEdit_21">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>4.0e3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="20" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Temp Star</string>
+          </property>
+         </widget>
+        </item>
+        <item row="64" column="1">
+         <widget class="QLineEdit" name="lineEdit_56">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1.34</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="1" colspan="3">
+         <widget class="QLineEdit" name="lineEdit_15">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>ABAur_Atmo.dat</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="ExitFileLabel">
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Exit File Address&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="50" column="1">
+         <widget class="QLineEdit" name="lineEdit_43">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>25.00</string>
+          </property>
+         </widget>
+        </item>
+        <item row="52" column="1">
+         <widget class="QLineEdit" name="lineEdit_45">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.530</string>
+          </property>
+         </widget>
+        </item>
+        <item row="51" column="1">
+         <widget class="QLineEdit" name="lineEdit_44">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>30.0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="46" column="1">
+         <widget class="QLineEdit" name="lineEdit_40">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="46" column="0">
+         <widget class="QLabel" name="label_43">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Hostspotphi1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="46" column="3">
+         <widget class="QPushButton" name="pushButton_33">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="47" column="0">
+         <widget class="QLabel" name="label_44">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Hostspotphi2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="47" column="1">
+         <widget class="QLineEdit" name="lineEdit_41">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="27" column="1">
+         <widget class="QLineEdit" name="lineEdit_24">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="27" column="3">
+         <widget class="QPushButton" name="pushButton_23">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="53" column="0">
+         <widget class="QLabel" name="label_50">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind B</string>
+          </property>
+         </widget>
+        </item>
+        <item row="53" column="1">
+         <widget class="QLineEdit" name="lineEdit_46">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>-0.100</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="1" colspan="3">
+         <widget class="QLineEdit" name="lineEdit_13">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>diskwindxcv_ABAur</string>
+          </property>
+         </widget>
+        </item>
+        <item row="54" column="0">
+         <widget class="QLabel" name="label_51">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>DIskwind Rho0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="54" column="1">
+         <widget class="QLineEdit" name="lineEdit_47">
+          <property name="maximumSize">
+           <size>
+            <width>70</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>2.000e-10</string>
+          </property>
+         </widget>
+        </item>
+        <item row="55" column="0">
+         <widget class="QLabel" name="label_52">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind Tdmax</string>
+          </property>
+         </widget>
+        </item>
+        <item row="55" column="1">
+         <widget class="QLineEdit" name="lineEdit_48">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>3.27e3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="2" colspan="2">
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="35" column="1">
+         <widget class="QLineEdit" name="lineEdit_31">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>6.55e-8</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="0" colspan="4">
+         <widget class="QLabel" name="label">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Physical Parameters&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="36" column="0">
+         <widget class="QLabel" name="label_33">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>A Upperlevel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="36" column="1">
+         <widget class="QLineEdit" name="lineEdit_32">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>6.22e7</string>
+          </property>
+         </widget>
+        </item>
+        <item row="37" column="0">
+         <widget class="QLabel" name="label_34">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Frequency</string>
+          </property>
+         </widget>
+        </item>
+        <item row="73" column="3">
+         <widget class="QPushButton" name="pushButton_44">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="74" column="0">
+         <widget class="QLabel" name="label_71">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Source ThetaStar Frac</string>
+          </property>
+         </widget>
+        </item>
+        <item row="74" column="1">
+         <widget class="QLineEdit" name="lineEdit_64">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="74" column="3">
+         <widget class="QPushButton" name="pushButton_45">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="39" column="3">
+         <widget class="QPushButton" name="pushButton_32">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="40" column="0">
+         <widget class="QLabel" name="label_37">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Line Depth</string>
+          </property>
+         </widget>
+        </item>
+        <item row="40" column="1">
+         <widget class="QLineEdit" name="lineEdit_35">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="88" column="1">
+         <widget class="QLineEdit" name="lineEdit_76">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="89" column="0">
+         <widget class="QLabel" name="label_86">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Save Source</string>
+          </property>
+         </widget>
+        </item>
+        <item row="89" column="1">
+         <widget class="QLineEdit" name="lineEdit_77">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="89" column="3">
+         <widget class="QPushButton" name="pushButton_54">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="90" column="0">
+         <widget class="QLabel" name="label_87">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Do Profile</string>
+          </property>
+         </widget>
+        </item>
+        <item row="75" column="0">
+         <widget class="QLabel" name="label_72">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Profile Dimensions&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="90" column="1">
+         <widget class="QLineEdit" name="lineEdit_78">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="91" column="0">
+         <widget class="QLabel" name="label_88">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Do Ioneql</string>
+          </property>
+         </widget>
+        </item>
+        <item row="39" column="0">
+         <widget class="QLabel" name="label_36">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Photospheric Profile&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="91" column="1">
+         <widget class="QLineEdit" name="lineEdit_79">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="80" column="1">
+         <widget class="QLineEdit" name="lineEdit_69">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>20</string>
+          </property>
+         </widget>
+        </item>
+        <item row="81" column="0">
+         <widget class="QLabel" name="label_78">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NProfile Step</string>
+          </property>
+         </widget>
+        </item>
+        <item row="81" column="1">
+         <widget class="QLineEdit" name="lineEdit_70">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>600</string>
+          </property>
+         </widget>
+        </item>
+        <item row="81" column="3">
+         <widget class="QPushButton" name="pushButton_48">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="82" column="0">
+         <widget class="QLabel" name="label_79">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>First Velocity</string>
+          </property>
+         </widget>
+        </item>
+        <item row="82" column="1">
+         <widget class="QLineEdit" name="lineEdit_71">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>-400.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="76" column="0">
+         <widget class="QLabel" name="label_73">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Prof Vel Factor</string>
+          </property>
+         </widget>
+        </item>
+        <item row="76" column="1">
+         <widget class="QLineEdit" name="lineEdit_65">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1.0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="76" column="3">
+         <widget class="QPushButton" name="pushButton_46">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="77" column="0">
+         <widget class="QLabel" name="label_74">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NProfile Velocity</string>
+          </property>
+         </widget>
+        </item>
+        <item row="77" column="1">
+         <widget class="QLineEdit" name="lineEdit_66">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>60</string>
+          </property>
+         </widget>
+        </item>
+        <item row="78" column="0">
+         <widget class="QLabel" name="label_75">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NProfile Angle</string>
+          </property>
+         </widget>
+        </item>
+        <item row="82" column="3">
+         <widget class="QPushButton" name="pushButton_49">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="83" column="0">
+         <widget class="QLabel" name="label_80">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Last Velocity</string>
+          </property>
+         </widget>
+        </item>
+        <item row="83" column="1">
+         <widget class="QLineEdit" name="lineEdit_72">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>400.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="84" column="0">
+         <widget class="QLabel" name="label_81">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Inclination</string>
+          </property>
+         </widget>
+        </item>
+        <item row="84" column="1">
+         <widget class="QLineEdit" name="lineEdit_73">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>90.0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="84" column="3">
+         <widget class="QPushButton" name="pushButton_50">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="78" column="1">
+         <widget class="QLineEdit" name="lineEdit_67">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>40</string>
+          </property>
+         </widget>
+        </item>
+        <item row="79" column="0">
+         <widget class="QLabel" name="label_76">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NProfile Radii</string>
+          </property>
+         </widget>
+        </item>
+        <item row="79" column="1">
+         <widget class="QLineEdit" name="lineEdit_68">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>50</string>
+          </property>
+         </widget>
+        </item>
+        <item row="79" column="3">
+         <widget class="QPushButton" name="pushButton_47">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="80" column="0">
+         <widget class="QLabel" name="label_77">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>NProfile Star Radii</string>
+          </property>
+         </widget>
+        </item>
+        <item row="64" column="0">
+         <widget class="QLabel" name="label_61">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Xlin</string>
+          </property>
+         </widget>
+        </item>
+        <item row="33" column="1">
+         <widget class="QLineEdit" name="lineEdit_29">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="19" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Max Radius</string>
+          </property>
+         </widget>
+        </item>
+        <item row="33" column="0">
+         <widget class="QLabel" name="label_30">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Abundance</string>
+          </property>
+         </widget>
+        </item>
+        <item row="20" column="1">
+         <widget class="QLineEdit" name="lineEdit_18">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>9.6e3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="85" column="0">
+         <widget class="QLabel" name="label_82">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Job Type Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="37" column="1">
+         <widget class="QLineEdit" name="lineEdit_33">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="37" column="3">
+         <widget class="QPushButton" name="pushButton_29">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="38" column="0">
+         <widget class="QLabel" name="label_35">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Wavelength</string>
+          </property>
+         </widget>
+        </item>
+        <item row="38" column="1">
+         <widget class="QLineEdit" name="lineEdit_34">
+          <property name="maximumSize">
+           <size>
+            <width>70</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>5.890e-5</string>
+          </property>
+         </widget>
+        </item>
+        <item row="38" column="3">
+         <widget class="QPushButton" name="pushButton_30">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="26" column="1">
+         <widget class="QLineEdit" name="lineEdit_23">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="26" column="3">
+         <widget class="QPushButton" name="pushButton_22">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="27" column="0">
+         <widget class="QLabel" name="label_24">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Do Multi</string>
+          </property>
+         </widget>
+        </item>
+        <item row="21" column="3" alignment="Qt::AlignLeft">
+         <widget class="QPushButton" name="pushButton_18">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="22" column="0">
+         <widget class="QLabel" name="label_19">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Radiation Temp</string>
+          </property>
+         </widget>
+        </item>
+        <item row="44" column="0">
+         <widget class="QLabel" name="label_41">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Suppress Rotation</string>
+          </property>
+         </widget>
+        </item>
+        <item row="44" column="1">
+         <widget class="QLineEdit" name="lineEdit_38">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="45" column="0">
+         <widget class="QLabel" name="label_42">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Do Hotspot</string>
+          </property>
+         </widget>
+        </item>
+        <item row="45" column="1">
+         <widget class="QLineEdit" name="lineEdit_39">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="41" column="0">
+         <widget class="QLabel" name="label_38">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Line Doppler Width</string>
+          </property>
+         </widget>
+        </item>
+        <item row="41" column="1">
+         <widget class="QLineEdit" name="lineEdit_36">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>100</string>
+          </property>
+         </widget>
+        </item>
+        <item row="41" column="3">
+         <widget class="QPushButton" name="pushButton_31">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="42" column="0">
+         <widget class="QLabel" name="label_39">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Line Wing</string>
+          </property>
+         </widget>
+        </item>
+        <item row="42" column="1">
+         <widget class="QLineEdit" name="lineEdit_37">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>0.0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="88" column="3">
+         <widget class="QPushButton" name="pushButton_53">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#DCDCDC;</string>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="43" column="0">
+         <widget class="QLabel" name="label_40">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Magnetosphere and diskwind&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="93" column="0">
+         <widget class="QLabel" name="label_90">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Star-Disk Inclination</string>
+          </property>
+         </widget>
+        </item>
+        <item row="93" column="1">
+         <widget class="QLineEdit" name="lineEdit_80">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>20.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="92" column="3">
+         <widget class="QPushButton" name="pushButton_56">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string notr="true">i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="93" column="3">
+         <widget class="QPushButton" name="pushButton_55">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1" colspan="2">
+         <layout class="QFormLayout" name="formLayout_2">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit_5">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="11" column="4" rowspan="5">
+         <layout class="QFormLayout" name="formLayout">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton_11">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_13">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="pushButton_14">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="pushButton_15">
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#DCDCDC;</string>
+            </property>
+            <property name="text">
+             <string>i</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="94" column="0">
+         <widget class="QLabel" name="label_91">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Name Star</string>
+          </property>
+         </widget>
+        </item>
+        <item row="94" column="1">
+         <widget class="QLineEdit" name="lineEdit_81">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="92" column="0">
+         <widget class="QLabel" name="label_89">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#aa0000;&quot;&gt;Script Parameters&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="94" column="3">
+         <widget class="QPushButton" name="pushButton_57">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="95" column="3">
+         <widget class="QPushButton" name="pushButton_58">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="96" column="1">
+         <widget class="QLineEdit" name="lineEdit_82">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="96" column="3">
+         <widget class="QPushButton" name="pushButton_59">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="97" column="1">
+         <widget class="QLineEdit" name="lineEdit_83">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>1.e-3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="100" column="3">
+         <widget class="QPushButton" name="pushButton_63">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="99" column="1">
+         <widget class="QLineEdit" name="lineEdit_85">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>8000.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="98" column="0">
+         <widget class="QLabel" name="label_94">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind Heating Rate</string>
+          </property>
+         </widget>
+        </item>
+        <item row="98" column="1">
+         <widget class="QLineEdit" name="lineEdit_84">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>1.e-4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="100" column="0">
+         <widget class="QLabel" name="label_96">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind Min Temperature</string>
+          </property>
+         </widget>
+        </item>
+        <item row="97" column="3">
+         <widget class="QPushButton" name="pushButton_60">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="100" column="1">
+         <widget class="QLineEdit" name="lineEdit_86">
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>4000.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="99" column="0">
+         <widget class="QLabel" name="label_95">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Diskwind Temp</string>
+          </property>
+         </widget>
+        </item>
+        <item row="101" column="3">
+         <widget class="QPushButton" name="pushButton_64">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="102" column="3">
+         <widget class="QPushButton" name="pushButton_65">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+         </widget>
+        </item>
+        <item row="102" column="0">
+         <widget class="QCheckBox" name="checkBox">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="text">
+           <string>Dcomp</string>
+          </property>
+         </widget>
+        </item>
+        <item row="101" column="0">
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="text">
+           <string>Do Map</string>
+          </property>
+         </widget>
+        </item>
+        <item row="95" column="0">
+         <widget class="QCheckBox" name="checkBox_3">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::StrongFocus</enum>
+          </property>
+          <property name="text">
+           <string>Do Surface</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <family>Ubuntu</family>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::TabFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#DCDCDC;</string>
+      </property>
+      <property name="text">
+       <string>Save and Run!</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuInfo">
+    <property name="font">
+     <font>
+      <family>Ubuntu</family>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="title">
+     <string>CV- Assistant</string>
+    </property>
+    <addaction name="actionInstructions"/>
+    <addaction name="actionExit"/>
+    <addaction name="actionSearch_Tool"/>
+   </widget>
+   <addaction name="menuInfo"/>
+  </widget>
+  <action name="actionInstructions">
+   <property name="text">
+    <string>Instructions</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <italic>false</italic>
+    </font>
+   </property>
+  </action>
+  <action name="actionSearch_Tool">
+   <property name="text">
+    <string>Search Tool</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>VerboseButton</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>AuxVerboseButton</tabstop>
+  <tabstop>lineEdit_3</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>lineEdit_4</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>lineEdit_5</tabstop>
+  <tabstop>pushButton_5</tabstop>
+  <tabstop>lineEdit_7</tabstop>
+  <tabstop>pushButton_6</tabstop>
+  <tabstop>lineEdit_8</tabstop>
+  <tabstop>pushButton_7</tabstop>
+  <tabstop>lineEdit_9</tabstop>
+  <tabstop>pushButton_8</tabstop>
+  <tabstop>lineEdit_10</tabstop>
+  <tabstop>pushButton_9</tabstop>
+  <tabstop>lineEdit_11</tabstop>
+  <tabstop>pushButton_10</tabstop>
+  <tabstop>lineEdit_12</tabstop>
+  <tabstop>pushButton_11</tabstop>
+  <tabstop>lineEdit_13</tabstop>
+  <tabstop>pushButton_13</tabstop>
+  <tabstop>lineEdit_14</tabstop>
+  <tabstop>pushButton_14</tabstop>
+  <tabstop>lineEdit_15</tabstop>
+  <tabstop>lineEdit_6</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>lineEdit_16</tabstop>
+  <tabstop>pushButton_12</tabstop>
+  <tabstop>lineEdit_17</tabstop>
+  <tabstop>pushButton_16</tabstop>
+  <tabstop>lineEdit_18</tabstop>
+  <tabstop>pushButton_17</tabstop>
+  <tabstop>lineEdit_19</tabstop>
+  <tabstop>pushButton_18</tabstop>
+  <tabstop>lineEdit_20</tabstop>
+  <tabstop>pushButton_19</tabstop>
+  <tabstop>lineEdit_21</tabstop>
+  <tabstop>pushButton_20</tabstop>
+  <tabstop>lineEdit_22</tabstop>
+  <tabstop>pushButton_21</tabstop>
+  <tabstop>lineEdit_23</tabstop>
+  <tabstop>pushButton_22</tabstop>
+  <tabstop>lineEdit_24</tabstop>
+  <tabstop>pushButton_23</tabstop>
+  <tabstop>lineEdit_25</tabstop>
+  <tabstop>pushButton_24</tabstop>
+  <tabstop>lineEdit_26</tabstop>
+  <tabstop>pushButton_25</tabstop>
+  <tabstop>lineEdit_27</tabstop>
+  <tabstop>pushButton_26</tabstop>
+  <tabstop>lineEdit_28</tabstop>
+  <tabstop>pushButton_27</tabstop>
+  <tabstop>lineEdit_29</tabstop>
+  <tabstop>pushButton_28</tabstop>
+  <tabstop>lineEdit_30</tabstop>
+  <tabstop>lineEdit_31</tabstop>
+  <tabstop>lineEdit_32</tabstop>
+  <tabstop>lineEdit_33</tabstop>
+  <tabstop>pushButton_29</tabstop>
+  <tabstop>lineEdit_34</tabstop>
+  <tabstop>pushButton_30</tabstop>
+  <tabstop>pushButton_32</tabstop>
+  <tabstop>lineEdit_35</tabstop>
+  <tabstop>lineEdit_36</tabstop>
+  <tabstop>pushButton_31</tabstop>
+  <tabstop>lineEdit_37</tabstop>
+  <tabstop>lineEdit_38</tabstop>
+  <tabstop>lineEdit_39</tabstop>
+  <tabstop>lineEdit_40</tabstop>
+  <tabstop>pushButton_33</tabstop>
+  <tabstop>lineEdit_41</tabstop>
+  <tabstop>pushButton_34</tabstop>
+  <tabstop>lineEdit_42</tabstop>
+  <tabstop>lineEdit_43</tabstop>
+  <tabstop>lineEdit_44</tabstop>
+  <tabstop>lineEdit_45</tabstop>
+  <tabstop>lineEdit_46</tabstop>
+  <tabstop>lineEdit_47</tabstop>
+  <tabstop>lineEdit_48</tabstop>
+  <tabstop>lineEdit_49</tabstop>
+  <tabstop>pushButton_35</tabstop>
+  <tabstop>lineEdit_50</tabstop>
+  <tabstop>pushButton_36</tabstop>
+  <tabstop>lineEdit_51</tabstop>
+  <tabstop>pushButton_37</tabstop>
+  <tabstop>lineEdit_52</tabstop>
+  <tabstop>pushButton_38</tabstop>
+  <tabstop>lineEdit_53</tabstop>
+  <tabstop>pushButton_39</tabstop>
+  <tabstop>lineEdit_54</tabstop>
+  <tabstop>pushButton_40</tabstop>
+  <tabstop>lineEdit_55</tabstop>
+  <tabstop>pushButton_41</tabstop>
+  <tabstop>lineEdit_56</tabstop>
+  <tabstop>pushButton_42</tabstop>
+  <tabstop>lineEdit_57</tabstop>
+  <tabstop>lineEdit_58</tabstop>
+  <tabstop>pushButton_43</tabstop>
+  <tabstop>lineEdit_59</tabstop>
+  <tabstop>lineEdit_60</tabstop>
+  <tabstop>lineEdit_61</tabstop>
+  <tabstop>lineEdit_62</tabstop>
+  <tabstop>lineEdit_63</tabstop>
+  <tabstop>pushButton_44</tabstop>
+  <tabstop>lineEdit_64</tabstop>
+  <tabstop>pushButton_45</tabstop>
+  <tabstop>lineEdit_65</tabstop>
+  <tabstop>pushButton_46</tabstop>
+  <tabstop>lineEdit_66</tabstop>
+  <tabstop>lineEdit_67</tabstop>
+  <tabstop>lineEdit_68</tabstop>
+  <tabstop>pushButton_47</tabstop>
+  <tabstop>lineEdit_69</tabstop>
+  <tabstop>lineEdit_70</tabstop>
+  <tabstop>pushButton_48</tabstop>
+  <tabstop>lineEdit_71</tabstop>
+  <tabstop>pushButton_49</tabstop>
+  <tabstop>lineEdit_72</tabstop>
+  <tabstop>lineEdit_73</tabstop>
+  <tabstop>pushButton_50</tabstop>
+  <tabstop>pushButton_51</tabstop>
+  <tabstop>lineEdit_74</tabstop>
+  <tabstop>pushButton_52</tabstop>
+  <tabstop>lineEdit_75</tabstop>
+  <tabstop>lineEdit_76</tabstop>
+  <tabstop>pushButton_53</tabstop>
+  <tabstop>lineEdit_77</tabstop>
+  <tabstop>pushButton_54</tabstop>
+  <tabstop>lineEdit_78</tabstop>
+  <tabstop>lineEdit_79</tabstop>
+  <tabstop>pushButton_56</tabstop>
+  <tabstop>lineEdit_80</tabstop>
+  <tabstop>pushButton_55</tabstop>
+  <tabstop>lineEdit_81</tabstop>
+  <tabstop>pushButton_57</tabstop>
+  <tabstop>checkBox_3</tabstop>
+  <tabstop>pushButton_58</tabstop>
+  <tabstop>lineEdit_82</tabstop>
+  <tabstop>pushButton_59</tabstop>
+  <tabstop>lineEdit_83</tabstop>
+  <tabstop>pushButton_60</tabstop>
+  <tabstop>lineEdit_84</tabstop>
+  <tabstop>pushButton_61</tabstop>
+  <tabstop>lineEdit_85</tabstop>
+  <tabstop>pushButton_62</tabstop>
+  <tabstop>lineEdit_86</tabstop>
+  <tabstop>pushButton_63</tabstop>
+  <tabstop>checkBox_2</tabstop>
+  <tabstop>pushButton_64</tabstop>
+  <tabstop>checkBox</tabstop>
+  <tabstop>pushButton_65</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_15</tabstop>
+  <tabstop>scrollArea_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

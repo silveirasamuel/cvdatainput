@@ -1,0 +1,124 @@
+# Lines with an initial # need not contain an =
+# Lines with an initial 'backslash n'(i.e., empty lines) are allowed.
+# All other lines must contain an '=' sign, and it must occur before any
+# (optional) '#'.  The part of the line after the '#' is ignored.
+# Don't use '#' or '=' as part of a label name.
+
+# Except where numerically keyed selections are in use, '0' (zero) means no, and '1' (one) means yes.
+
+
+VERBOSE			=8		# Put the number of a code listed below to control verbose output.
+# 0:NONE,1:SURFACE,2:DIAG,3:FIELD,4:VELTABLE,5:INT,6:JBAR,7:GRAD,8:SOURCE,9:PROFILE,10:SOURCESURFACE,11:GRID,12:CROSSING,13:MONITOR 
+# Warning: using 2:DIAG for a normally dimensioned job can easily fill a disk.
+AUXVERBOSE		=2		# Put the number of a code listed below to control verbose output for special point.
+SPECIAL_I		=-1		# The 'i' index of the source grid point where AUXVERBOSE level will be used. (-1 => don't use)
+SPECIAL_J		=-1		# The 'j' index of the source grid point where AUXVERBOSE level will be used. (-1 => don't use)
+
+
+VELOCITY_LAW		=7		# Put the number of a code listed below to select a cv model.
+# Velocity law also dictates the geometry: 0:RADIAL,1:MAGNETO,2:INFALL,3:HUMMER,4:ROTMAGNETO,5:MAGNETOTABLE,6:DISKWIND,7:MAGNETO + DISKWIND
+
+ATMOSPHERE_TYPE		=0		# 0:Blackbody,1:Atmosphere
+
+# Indicate what phase of a cv job you want to run by selecting one of the codes listed in the accompanying comment.
+JOB_TYPE		=5		# 0:ignore, 1:surface, 2:source, 3:profile, 4:ioneql, 5:makegrid
+
+USE_GRID_FILE		=0		# Use the information in GRID_FILENAME for densities and temperatures over the grid.
+USE_TEMPERATURES_ONLY	=0		# Use the information in GRID_FILENAME only for temperatures over the grid.
+GRID_FILENAME		=grid.dat	# A file of densities and temperatures over the grid.
+SURFACES_FILENAME	=surfaces.ABAur	# A file of binary surface information.
+VELOCITY_FILENAME	=diskwindxcv_ABAur	# A file of velocity data, currently used in MAGNETOTABLE and DISKWIND
+PROF_VEL_FILENAME	=profveltable	# A file of a list of velocities at which line profile intensities are to be found.
+ATMOSPHERE_FILENAME	=ABAur_Atmo.dat       # A file containing the frequencies and fluxes emitted from the star.
+
+
+# Physical parameters.
+STELLAR_RAD_IN_RSUN	=2.10		# Stellar radius in Rsun.
+STELLAR_MASS_IN_MSUN	=0.80		# Stellar mass in Msun.
+MAX_RADIUS		=3.		# All computation occurs within this number of stellar radii,
+#					  unless overridden by DISKWIND outer corner, or OUTER_R0.
+TEMP_STAR		=4.0e3		# Temperature of stellar photosphere.
+TEMP_RING		=8.0e3		# Only consulted in magnetosphere cases.
+RADIATION_TEMP		=4.0e3		# For IONEQL.
+TEMP_GAS		=4.0e3		# Ignored if USE_GRID_FILE or USE_TEMPERATURES_ONLY is yes.
+FIXED_EPSILON		=-1.		# Set this to negative to disable.
+
+
+# Atomic parameters when using atom file (currently when and only when ELEMENT==1).
+USE_ATOM_FILE		=1		# 1 means yes, 0 means no.
+DO_MULTI		=0		# 1 means yes, 0 means no.  Multi means derive source from n(lower), n(upper).
+ELEMENT			=1		# Use the atomic number.
+ATOM_FILENAME		=hydrogen.dat	# The name of the file containing atomic parameters.
+LOWERLEVEL		=2 		# For H
+UPPERLEVEL		=3		# For H
+
+# Line values needed if not using atom file.
+ABUNDANCE		=1		# Set this fudge factor to one if using atom file.
+OSCILLATOR		=0.649		# 
+C_UPPERLEVEL		=6.55e-8	# 
+A_UPPERLEVEL		=6.22e7		# 
+FREQUENCY		=0.		# If zero, determine from WAVELENGTH.
+WAVELENGTH		=5.890e-5	# cm 
+
+# Parameters to control photospheric profile:
+# correction=1-LINE_DEPTH*((1-LINE_WING)*exp(-x*x)+LINE_WING/((1+x)**2)),
+# x=v/LINE_DOPPLER_WIDTH, v=velocity from line center.
+LINE_DEPTH		=0.0		# 
+LINE_DOPPLER_WIDTH	=100	        # km/s 
+LINE_WING		=0.0		# 
+
+# Used in magnetosphere and diskwind.
+SUPPRESS_ROTATION	=0		# 
+DO_HOTSPOT              =0               # 
+HOTSPOTPHI1             =0.             # in degrees
+HOTSPOTPHI2             =0.             # in degrees 
+
+# Used in diskwind
+DISKWIND_INNER_X0	=7.600		#
+DISKWIND_OUTER_X0	=25.00 		#
+DISKWIND_Z_HEIGHT       =35.0           #
+DISKWIND_A              =0.430          # 
+DISKWIND_B              =-0.200         # 
+DISKWIND_RHO0           =4.078e-11      # 
+DISKWIND_TDMAX		=3.27e3		# 
+
+# Magnetosphere stuff.
+DENSITY_FACTOR		=1.		# Densities in MAGNETOTABLE velocity table get multiplied by this.
+MASS_FLOW		=9.46e17	# gm/s, this is the handle on densConst.
+INNER_R0		=7.00		# radius where inner field line intersects disk plane.
+OUTER_R0		=7.55   	# radius where outer field line intersects disk plane.
+BEQ			=2.5e3		# equatorial stellar magnetic field in Gauss.
+POL_VEL_INNER		=3.0e-3		# initial poloidal velocity on the inner field line in units of (G*Mstar/Rstar). 
+OMEGASK			=0.26		# ratio of omega(star) to omega(Keplerian). 
+XLIN			=1.34		# specific angular momentum for the inner field line in units of (G*Mstar/Rstar)^(1/2). 
+
+# Rybicki and Hummer stuff
+RH_TAU0			=0.1		# 
+
+# Source function dimensions.
+MAX_ITERATION		=4		# See cvdim.h for maximum allowable dimensions.
+NSOURCE_X		=40		#
+NSOURCE_Z		=40 		# 
+NSOURCE_PHI		=40		# 
+NSOURCE_THETA		=40		#
+NSOURCE_STEP		=500            # This parameter is overridden in magnetosphere case.
+SOURCE_THETASTAR_FRAC	=2		# Number of rays on star is NSOURCE_THETA/SOURCE_THETASTAR_FRAC.
+
+# Profile dimensions.
+PROF_VEL_FACTOR		=1.0		# If negative, scale values in PROF_VEL_TABLE by max velocity
+NPROFILE_VELOCITY	=60		# 
+NPROFILE_ANGLE		=40		# 
+NPROFILE_RADII		=50		# This is the total number of radii, including NPROFILE_STAR_RADII.
+NPROFILE_STAR_RADII	=20		# 
+NPROFILE_STEP		=600		# This parameter is overridden in magnetosphere case.
+FIRST_VELOCITY		=-400.		# km/s
+LAST_VELOCITY		=400.		# 
+INCLINATION		=90.		# 90o is equator-on, 0o is pole-on.  Ordinarily control using -i command line.
+
+# Can use these with JOB_TYPE 0, ordinarily JOB_TYPE!=0 overrides these.
+USE_SAVED_SURFACES	=0		# 0 means don't use SURFACES_FILENAME as a surface file, 1 means do.
+SAVE_SURFACES		=1		# 
+USE_SAVED_SOURCE	=0		# 0 means don't use SOURCE_NAME as source function, 1 means do.
+SAVE_SOURCE		=1		# 0 means don't save source function to SOURCE_NAME (overwrites), 1 means do.
+DO_PROFILE		=0		# 
+DO_IONEQL		=0		#
